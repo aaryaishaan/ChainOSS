@@ -1,5 +1,5 @@
 {
-  "name": "ChainCred",
+  "name": "ChainOSS",
   "version": "1.0.0",
   "description": "Smart contracts for open Source program",
   "main": "hardhat.config.js",
@@ -27,6 +27,6 @@
     "defi",
     "holesky"
   ],
-  "author": "CHAINCRED TEAM",
+  "author": "CHAINOSS TEAM",
   "license": "MIT"
 } 
