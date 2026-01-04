@@ -95,10 +95,10 @@ class Web3Service {
 
       // Initialize provider and signer
       this.provider = new ethers.BrowserProvider(window.ethereum);
-      this.signer = await this.provider.getSigner();
+      this.signer = await this.provider!.getSigner();
 
       // Check if we're on the correct network
-      const network = await this.provider.getNetwork();
+      const network = await this.provider!.getNetwork();
       if (Number(network.chainId) !== HOLESKY_CHAIN_ID) {
         await this.switchToHolesky();
       }
