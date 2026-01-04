@@ -75,7 +75,7 @@ export const ProposalType = {
 };
 
 class Web3Service {
-  private provider: any | null = null;
+  private provider: ethers.BrowserProvider | null = null;
   private signer: ethers.Signer | null = null;
 
   async connectWallet(): Promise<string> {
@@ -93,8 +93,8 @@ class Web3Service {
         throw new Error('No accounts found');
       }
 
-      // Initialize provider and signer (ethers v5 syntax)
-      this.provider = new (ethers as any).providers.Web3Provider(window.ethereum);
+      // Initialize provider and signer
+      this.provider = new ethers.BrowserProvider(window.ethereum);
       this.signer = await this.provider!.getSigner();
 
       // Check if we're on the correct network
