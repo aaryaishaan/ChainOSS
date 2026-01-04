@@ -75,7 +75,7 @@ export const ProposalType = {
 };
 
 class Web3Service {
-  private provider: any | null = null;
+  private provider: ethers.BrowserProvider | null = null;
   private signer: ethers.Signer | null = null;
 
   async connectWallet(): Promise<string> {

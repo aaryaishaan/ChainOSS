@@ -5,5 +5,10 @@
   "framework": "create-react-app",
   "env": {
     "NODE_OPTIONS": "--max-old-space-size=4096"
+  },
+  "functions": {
+    "src/*.js": {
+      "runtime": "nodejs18.x"
+    }
   }
 }

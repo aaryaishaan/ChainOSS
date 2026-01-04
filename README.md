@@ -213,7 +213,7 @@ npm run start
 
 ## 👥 Team
 
-**Team hardCoded** - Blockchain and Web3 enthusiasts dedicated to revolutionizing open-source sustainability.
+**Team HackRiders** - Blockchain and Web3 enthusiasts dedicated to revolutionizing open-source sustainability.
 
 - Ishan Tiwari
 - Aishwarya Shree
