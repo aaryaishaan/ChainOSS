@@ -217,7 +217,7 @@ npm run start
 
 - Ishan Tiwari
 - Aishwarya Shree
-- Ishan Araya
+- Ishaan Aarya
 - Pallavi Singh
 
 
